@@ -1,4 +1,10 @@
-# samuliristimaki.life
+# [samuliristimaki.life](https://samuliristimaki.life/)
+
+## Features
+- [Gatsby](https://www.gatsbyjs.org/)
+- [React](https://reactjs.org/)
+- [GraphQL](http://graphql.org/)
+- [Firebase](https://firebase.google.com/)
 
 ## Install dependencies
 ```
@@ -15,8 +21,7 @@ yarn develop
 yarn build
 ```
 
-## Features
-- [Gatsby](https://www.gatsbyjs.org/)
-- [React](https://reactjs.org/)
-- [GraphQL](http://graphql.org/)
-- [Firebase](https://firebase.google.com/)
+## Deploy
+```
+firebase deploy
+```
