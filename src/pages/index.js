@@ -16,26 +16,9 @@ import samuliImg from '../images/samuli.jpg';
 // import bannerImg from '../images/banner-1.jpg';
 // import bannerMobileImg from '../images/banner-mobile.jpg';
 
-// function handleScriptLoad() {
-// 	if (typeof window !== `undefined` && window.netlifyIdentity) {
-// 		window.netlifyIdentity.on('init', user => {
-// 			if (!user) {
-// 				window.netlifyIdentity.on('login', () => {
-// 					document.location.href = '/admin/';
-// 				});
-// 			}
-// 		});
-// 	}
-// 	window.netlifyIdentity.init();
-// }
-
 function IndexPage({ data }) {
 	return (
 		<div className="main">
-			<Script
-			// url="https://identity.netlify.com/v1/netlify-identity-widget.js"
-			// onLoad={() => handleScriptLoad()}
-			/>
 			<TitleAndMetaTags />
 			<Section>
 				<div className="grid">
