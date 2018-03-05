@@ -27,8 +27,6 @@ module.exports = {
 				name: `pages`,
 				path: `${__dirname}/src/pages/`
 			}
-		},
-		'gatsby-plugin-netlify-cms',
-		'gatsby-plugin-netlify'
+		}
 	]
 };
