@@ -1,5 +1,5 @@
 import React from 'react';
-import Script from 'react-load-script';
+// import Script from 'react-load-script';
 // import Link from 'gatsby-link';
 
 import { TitleAndMetaTags } from '../components/TitleAndMetaTags/TitleAndMetaTags';
