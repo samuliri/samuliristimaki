@@ -106,7 +106,6 @@ function IndexPage({ data }) {
 						</a>
 					</blockquote>
 				</div>
-				<br />
 			</Section>
 
 			<Section>
