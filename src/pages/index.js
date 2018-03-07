@@ -12,7 +12,7 @@ import { FakeImg } from '../components/FakeImg/FakeImg';
 
 import img3 from '../images/img-3.jpg';
 import img4 from '../images/img-4.jpg';
-import samuliImg from '../images/samuli.jpg';
+import samuliImg from '../images/samuliristimaki.jpg';
 // import bannerImg from '../images/banner-1.jpg';
 // import bannerMobileImg from '../images/banner-mobile.jpg';
 
@@ -32,7 +32,8 @@ function IndexPage({ data }) {
 				<div className="grid">
 					<div className="col md-7 lg-5 md-push-1 lg-push-2 lg-push-3">
 						<p className="measure">
-							a Finnish Digital Designer who works mainly as UI Developer.{' '}
+							Just a simple Finnish / American dude, who currently is working as
+							an all-around Developer, and wants to create awesome stuff.{' '}
 							<sup className="-yellow">&#9679;</sup>{' '}
 						</p>
 					</div>

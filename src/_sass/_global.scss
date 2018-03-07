@@ -459,10 +459,6 @@ img {
 		@include medium {
 			padding-top: 80px;
 		}
-
-		@include wide {
-			padding-top: 100px;
-		}
 	}
 
 	@include medium {
@@ -506,7 +502,11 @@ img {
 }
 
 .projects-list {
-	padding-bottom: 70px;
+	padding-bottom: 30px;
+
+	@include medium {
+		padding-bottom: 80px;
+	}
 
 	h1 {
 		background: -webkit-linear-gradient(#333, $colorSalmon);
@@ -520,11 +520,7 @@ img {
 }
 
 .project-section {
-	padding-top: 50px;
-
-	@include medium {
-		padding-top: 140px;
-	}
+	padding-top: 30px;
 }
 
 // HOME PRODUCT
@@ -602,8 +598,6 @@ img {
 
 // FAKE IMG
 .fake-img-group {
-	opacity: 0.9;
-
 	@include medium {
 		height: 33vmax;
 		max-height: 420px;
