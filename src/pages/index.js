@@ -33,7 +33,7 @@ function IndexPage({ data }) {
 					<div className="col md-7 lg-5 md-push-1 lg-push-2 lg-push-3">
 						<p className="measure">
 							Just a simple Finnish / American dude, who currently is working as
-							an all-around Developer, and wants to create awesome stuff.{' '}
+							an all-around Developer, and wants to create awesome stuff!{' '}
 							<sup className="-yellow">&#9679;</sup>{' '}
 						</p>
 					</div>
