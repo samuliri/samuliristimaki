@@ -1,6 +1,8 @@
 module.exports = {
 	siteMetadata: {
-		title: 'Samuli Ristimäki'
+		title: 'Samuli Ristimäki',
+		description:
+			'Just a simple Finnish / American dude, who currently is working as an all-around Developer, and wants to create awesome stuff.'
 	},
 	plugins: [
 		'gatsby-plugin-react-helmet',
