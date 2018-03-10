@@ -62,7 +62,7 @@ h3 {
 h1,
 .h1 {
 	font-size: 36px;
-	line-height: 36px;
+	line-height: 38px;
 	letter-spacing: 1px;
 	margin-top: 20px;
 	margin-bottom: 20px;
@@ -202,7 +202,7 @@ nav {
   right: 1rem;
   padding: 0;
   margin: 0;
-  background: white;
+  background: rgba(white, 0.9);
   border-radius: 2px;
   border: 1px solid $secondary;
 	width: auto;
@@ -502,7 +502,7 @@ img {
 }
 
 .projects-list {
-	padding-bottom: 30px;
+	padding-bottom: 20px;
 
 	@include medium {
 		padding-bottom: 80px;
@@ -520,7 +520,11 @@ img {
 }
 
 .project-section {
-	padding-top: 30px;
+	padding: 20px 0;
+
+	h1 {
+		margin: 15px 0;
+	}
 }
 
 // HOME PRODUCT
@@ -538,7 +542,7 @@ img {
 	padding-bottom: 40px;
 
 	@include medium {
-		padding-top: 120px;
+		padding-top: 80px;
 		padding-bottom: 120px;
 	}
 }
@@ -767,7 +771,7 @@ button {
 	}
 
 	&:not(:disabled):hover {
-		background-color: $colorYellow;
+		// background-color: $colorYellow;
 		text-decoration: none;
 	}
 

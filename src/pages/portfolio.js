@@ -20,7 +20,7 @@ function Project({ className, project }) {
 		<div className="section project-section">
 			<div className="grid">
 				<div className="col md-7 lg-5 md-push-1 lg-push-2 lg-push-3">
-					<h1 style={{ marginTop: 0 }}>{project.name}</h1>
+					<h1>{project.name}</h1>
 					<h2 className="color-salmon">
 						{project.tech} {project.type}
 					</h2>
@@ -52,7 +52,10 @@ function PortfolioPage({ data }) {
 					<h1 className="col -block md-push-1 lg-push-2 title">
 						Samuli<br />
 						<span className="title-desc">Ristimäki</span>
-						<Typewriter className="title-desc" texts={['portfolio.', 'projects.']} />
+						<Typewriter
+							className="title-desc"
+							texts={['portfolio.', 'projects.']}
+						/>
 					</h1>
 				</div>
 			</Section>
