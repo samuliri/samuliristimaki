@@ -1,4 +1,4 @@
-# [samuliristimaki.life](https://samuliristimaki.life/)
+# [samuliristimaki.com](https://samuliristimaki.com)
 
 ## Features
 - [Gatsby](https://www.gatsbyjs.org/)

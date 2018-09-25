@@ -1,7 +1,7 @@
 ---
 name: Samuli.io
-type: Portfolio
+type: Design Portfolio
 description: More about Samuli Ristimäki UI design.
-url: http://samuli.webflow.io
+url: https://samuli.webflow.io
 image: /projects/samuli.jpg
 ---
