@@ -14,13 +14,13 @@ export default class TemplateWrapper extends React.Component {
 	}
 
 	componentDidMount() {
-		const { location } = this.props;
+		// const { location } = this.props;
 		// ReactGA.initialize('UA-80289891-3');
 		// ReactGA.pageview(location.pathname + location.search);
 	}
 
 	componentDidUpdate() {
-		const { location } = this.props;
+		// const { location } = this.props;
 		// ReactGA.pageview(location.pathname + location.search);
 	}
 
