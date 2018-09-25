@@ -4,7 +4,7 @@ export function Contact() {
 	return (
 		<div>
 			<div className="grid">
-				<h1 className="col md-push-1 lg-push-2">Contact</h1>
+				<h3 className="col md-push-1 lg-push-2 h1">Contact</h3>
 			</div>
 
 			<div className="grid">

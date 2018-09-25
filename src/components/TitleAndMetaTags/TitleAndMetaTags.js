@@ -20,10 +20,10 @@ export function TitleAndMetaTags({ url, pathname, title, description, desc }) {
 }
 
 TitleAndMetaTags.defaultProps = {
-	url: 'http://samuliristimaki.life',
+	url: 'http://samuliristimaki.com',
 	pathname: '',
 	title: 'Samuli Ristimäki',
-	description: 'Life.',
+	description: 'Portfolio of Life.',
 	desc:
 		'Just a simple Finnish / American dude, who currently is working as an all-around Developer, and wants to create awesome stuff. This site is build with Gatsby, React and GraphQL. Hosted on Firebase. The code is open source and available at Github.'
 };
