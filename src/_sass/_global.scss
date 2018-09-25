@@ -28,7 +28,7 @@ address {
 
 .main {
 	opacity: 0;
-	animation: fadeContent 1600ms 600ms ease-in-out forwards;
+	animation: fadeContent 600ms 600ms ease-in-out forwards;
 }
 
 @keyframes fadeContent {
@@ -142,7 +142,7 @@ nav {
   a {
     display: inline-flex;
     font-size: 2.5em;
-    font-weight: bold;
+    // font-weight: bold;
     text-transform: capitalize;
     text-decoration: none;
     color: $base;
@@ -212,7 +212,7 @@ nav {
   }
   &:hover {
 		cursor: pointer;
-		
+
     .toggle__label {
       max-width: 70px;
       padding: 0 0 0 1rem;
@@ -223,7 +223,7 @@ nav {
 
 .toggle__label {
   float: left;
-  font-weight: bold;
+  // font-weight: bold;
   text-transform: capitalize;
   line-height: 3.5rem;
   height: 100%;

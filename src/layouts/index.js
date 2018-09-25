@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
-import ReactGA from 'react-ga';
+// import ReactGA from 'react-ga';
 
 import { Nav } from '../components/Nav/Nav';
 import './index.scss';
@@ -15,13 +15,13 @@ export default class TemplateWrapper extends React.Component {
 
 	componentDidMount() {
 		const { location } = this.props;
-		ReactGA.initialize('UA-80289891-3');
-		ReactGA.pageview(location.pathname + location.search);
+		// ReactGA.initialize('UA-80289891-3');
+		// ReactGA.pageview(location.pathname + location.search);
 	}
 
 	componentDidUpdate() {
 		const { location } = this.props;
-		ReactGA.pageview(location.pathname + location.search);
+		// ReactGA.pageview(location.pathname + location.search);
 	}
 
 	render() {
@@ -30,8 +30,8 @@ export default class TemplateWrapper extends React.Component {
 			<div id="wrapper">
 				<Helmet>
 					<link
-						href="https://fonts.googleapis.com/css?family=Montserrat"
-						rel="stylesheet"
+					// href="https://fonts.googleapis.com/css?family=Montserrat"
+					// rel="stylesheet"
 					/>
 					{faviconSizes.map(size => (
 						<link
