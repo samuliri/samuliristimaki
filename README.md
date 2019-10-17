@@ -5,6 +5,7 @@
 - [React](https://reactjs.org/)
 - [GraphQL](http://graphql.org/)
 - [Firebase](https://firebase.google.com/)
+- [Node.js 12](https://nodejs.org/)
 
 ## Install dependencies
 ```

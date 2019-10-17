@@ -1,53 +1,34 @@
 {
-	"name": "samuliristimaki",
-	"description": "Samuli Ristimäki Website",
-	"version": "1.0.0",
-	"author": "Samuli Ristimäki <samuli.ristimaki@gmail.com>",
-	"dependencies": {
-		"gatsby": "^1.9.231",
-		"gatsby-link": "^1.6.39",
-		"gatsby-plugin-nprogress": "^1.0.14",
-		"gatsby-plugin-react-helmet": "^2.0.7",
-		"gatsby-plugin-sass": "^1.0.20",
-		"gatsby-source-filesystem": "^1.5.27",
-		"gatsby-transformer-json": "^1.0.14",
-		"gatsby-transformer-remark": "^1.7.36",
-		"query-string": "^5.0.1",
-		"react-ga": "^2.4.1",
-		"react-helmet": "^5.2.0",
-		"react-load-script": "^0.0.6",
-		"react-typist": "^2.0.4",
-		"react-visibility-sensor": "^3.11.0"
-	},
-	"main": "n/a",
-	"scripts": {
-		"build": "gatsby build",
-		"develop": "gatsby develop",
-		"diff": "prettier --config .prettierrc --list-different \"src/**/*.js\"",
-		"format": "prettier --config .prettierrc --write \"src/**/*.js\"",
-		"test": "eslint .",
-		"precommit": "lint-staged",
-		"prepush": "yarn test"
-	},
-	"lint-staged": {
-		"*.{js,jsx}": [
-			"prettier --config .prettierrc --write",
-			"git add"
-		]
-	},
-	"devDependencies": {
-		"babel-eslint": "^8.2.1",
-		"eslint": "^4.16.0",
-		"eslint-config-fbjs": "^2.0.1",
-		"eslint-config-prettier": "^2.9.0",
-		"eslint-plugin-babel": "^4.1.2",
-		"eslint-plugin-flowtype": "^2.41.1",
-		"eslint-plugin-jsx-a11y": "^6.0.3",
-		"eslint-plugin-prettier": "^2.5.0",
-		"eslint-plugin-react": "^7.5.1",
-		"eslint-plugin-relay": "^0.0.20",
-		"husky": "^0.14.3",
-		"lint-staged": "^6.0.1",
-		"prettier": "^1.10.2"
-	}
+  "name": "gatsby-v2",
+  "description": "Samuli Ristimäki",
+  "version": "1.0.0",
+  "author": "Samuli Ristimäki",
+  "dependencies": {
+    "gatsby": "^2.2.9",
+    "gatsby-plugin-manifest": "^2.0.24",
+    "gatsby-plugin-offline": "^2.0.25",
+    "gatsby-plugin-react-helmet": "^3.0.10",
+    "gatsby-plugin-sass": "^2.0.11",
+    "node-sass": "^4.11.0",
+    "react": "^16.8.5",
+    "react-dom": "^16.8.5",
+    "react-helmet": "^5.2.1"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write '**/*.js'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "prettier": "^1.14.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/samuliri/samuliristimaki"
+  }
 }
