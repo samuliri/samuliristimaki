@@ -43,7 +43,7 @@ class Main extends React.Component {
 						same things what my friends Windows machine could do. Afterwards I
 						understand why this was a great thing. I got into the creative
 						virtual world because there were no games to play, so I entertained
-						myself with image editing and my own HTML pages.
+						myself with image editing and own web pages.
 					</p>
 					<p>
 						I currently work as a developer at a large media house. I am very
@@ -156,11 +156,10 @@ class Main extends React.Component {
 								</b>
 								<br></br>
 								<p>
-									Front-end development, WordPress development, Design and
-									development of web user interfaces, responsive design and
-									development. Work for clients: University of the Arts
-									Helsinki, Länsiauto, Kopiosto, National Audit Office of
-									Finland, R-kioski and Finnair.
+									Front-end development, design and development of web user
+									interfaces, responsive design and development. Work for
+									clients: University of the Arts Helsinki, Länsiauto, Kopiosto,
+									National Audit Office of Finland, R-kioski and Finnair.
 								</p>
 							</li>
 							<li>
@@ -205,8 +204,8 @@ class Main extends React.Component {
 								</b>
 								<br></br>
 								<p>
-									Tasks: Software development in Java and XML. The project was
-									to program a software that generates graphical user interfaces
+									Software development in Java and XML. The project was to
+									program a software that generates graphical user interfaces
 									based on the application programming interface. The work also
 									included becoming familiar with a major open source project
 									(Anduril.org) and its development.
@@ -228,22 +227,40 @@ class Main extends React.Component {
 					<span className="image main">
 						<img src={pic03} alt="" />
 					</span>
-					<p>Unitled (2019)</p>
+					<p>Untitled (2019)</p>
 					<span className="image main">
 						<img src={pic04} alt="" />
 					</span>
 					<p>Untitled (2019)</p>
-					<h3 className="major">Music</h3>
+					<h3 className="major">Sound</h3>
 					<div className="videoWrapper videoWrapper1">
-						<iframe src="https://player.vimeo.com/video/367604711" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+						<iframe
+							src="https://player.vimeo.com/video/367604711"
+							width="640"
+							height="360"
+							frameborder="0"
+							allow="autoplay; fullscreen"
+							allowfullscreen></iframe>
 					</div>
 					<p>you could just fly away</p>
 					<div className="videoWrapper videoWrapper2">
-						<iframe src="https://player.vimeo.com/video/367605053" width="640" height="639" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+						<iframe
+							src="https://player.vimeo.com/video/367605053"
+							width="640"
+							height="639"
+							frameborder="0"
+							allow="autoplay; fullscreen"
+							allowfullscreen></iframe>
 					</div>
 					<p>things could’ve ended differently</p>
 					<div className="videoWrapper videoWrapper3">
-						<iframe src="https://player.vimeo.com/video/367605233" width="640" height="465" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+						<iframe
+							src="https://player.vimeo.com/video/367605233"
+							width="640"
+							height="465"
+							frameborder="0"
+							allow="autoplay; fullscreen"
+							allowfullscreen></iframe>
 					</div>
 					<p>way too many sleepless nights</p>
 					<h3 className="major">Traditional painting</h3>
