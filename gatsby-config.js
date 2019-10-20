@@ -1,34 +1,24 @@
 module.exports = {
 	siteMetadata: {
 		title: 'Samuli Ristimäki',
-		description:
-			'Just a simple Finnish / American dude, who currently is working as an all-around Developer, and wants to create awesome stuff.'
+		author: 'Samuli Ristimäki',
+		description: 'Samuli Ristimäki - Portfolio'
 	},
 	plugins: [
 		'gatsby-plugin-react-helmet',
+		{
+			resolve: `gatsby-plugin-manifest`,
+			options: {
+				name: 'samuli-ristimäki',
+				short_name: 'samuli',
+				start_url: '/',
+				background_color: '#663399',
+				theme_color: '#663399',
+				display: 'minimal-ui',
+				icon: 'src/images/64x64.png' // This path is relative to the root of the site.
+			}
+		},
 		'gatsby-plugin-sass',
-		{
-			resolve: 'gatsby-plugin-nprogress',
-			options: {
-				color: '#f09a7a',
-				showSpinner: false
-			}
-		},
-		'gatsby-transformer-json',
-		'gatsby-transformer-remark',
-		{
-			resolve: `gatsby-source-filesystem`,
-			options: {
-				name: `data`,
-				path: `${__dirname}/src/data/`
-			}
-		},
-		{
-			resolve: `gatsby-source-filesystem`,
-			options: {
-				name: `pages`,
-				path: `${__dirname}/src/pages/`
-			}
-		}
+		'gatsby-plugin-offline'
 	]
 };
