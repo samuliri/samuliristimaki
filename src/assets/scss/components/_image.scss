@@ -63,7 +63,7 @@
 			}
 		}
 
-		&.main {
+		&.cover {
 			display: block;
 			margin: (_size(element-margin) * 1.25) 0;
 			width: 100%;
@@ -74,14 +74,36 @@
 		}
 
 		@include breakpoint(small) {
-			&.main {
+			&.cover {
 				margin: (_size(element-margin) * 1) 0;
 			}
 		}
 
 		@include breakpoint(xsmall) {
-			&.main {
+			&.cover {
 				margin: (_size(element-margin) * 0.75) 0;
+			}
+		}
+
+		&.main {
+			display: block;
+			margin: (_size(element-margin) * 1) 0 (_size(element-margin) * 0.5);
+			width: 100%;
+
+			img {
+				width: 100%;
+			}
+		}
+
+		@include breakpoint(small) {
+			&.main {
+				margin: (_size(element-margin) * 1) 0 (_size(element-margin) * 0.5);
+			}
+		}
+
+		@include breakpoint(xsmall) {
+			&.main {
+				margin: (_size(element-margin) * 0.75) 0 (_size(element-margin) * 0.5);
 			}
 		}
 	}

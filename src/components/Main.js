@@ -31,7 +31,7 @@ class Main extends React.Component {
 					}`}
 					style={{ display: 'none' }}>
 					<h2 className="major">Intro</h2>
-					<span className="image main">
+					<span className="image cover">
 						<img src={pic01} alt="" />
 					</span>
 					<p>
@@ -228,13 +228,29 @@ class Main extends React.Component {
 					<span className="image main">
 						<img src={pic03} alt="" />
 					</span>
+					<p>Unitled (2019)</p>
 					<span className="image main">
 						<img src={pic04} alt="" />
 					</span>
-					<h3 className="major">Painting</h3>
+					<p>Untitled (2019)</p>
+					<h3 className="major">Music</h3>
+					<div className="videoWrapper videoWrapper1">
+						<iframe src="https://player.vimeo.com/video/367604711" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+					</div>
+					<p>you could just fly away</p>
+					<div className="videoWrapper videoWrapper2">
+						<iframe src="https://player.vimeo.com/video/367605053" width="640" height="639" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+					</div>
+					<p>things could’ve ended differently</p>
+					<div className="videoWrapper videoWrapper3">
+						<iframe src="https://player.vimeo.com/video/367605233" width="640" height="465" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+					</div>
+					<p>way too many sleepless nights</p>
+					<h3 className="major">Traditional painting</h3>
 					<span className="image main">
 						<img src={pic07} alt="" />
 					</span>
+					<p>Elisabet (2019)</p>
 					{close}
 				</article>
 
@@ -245,13 +261,13 @@ class Main extends React.Component {
 					}`}
 					style={{ display: 'none' }}>
 					<h2 className="major">Contact</h2>
-					<h4>
+					<h3>
 						<p>
 							<a href="mailto: samuli.ristimaki@gmail.com">
 								samuli.ristimaki<span className="icon fa-at"></span>gmail.com
 							</a>
 						</p>
-					</h4>
+					</h3>
 					<ul className="icons">
 						<li>
 							<a
