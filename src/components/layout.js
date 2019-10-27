@@ -35,8 +35,8 @@ const Layout = ({ children, location }) => {
 					<Helmet
 						title={data.site.siteMetadata.title}
 						meta={[
-							{ name: 'description', content: 'Sample' },
-							{ name: 'keywords', content: 'sample, something' }
+							{ name: 'description', content: 'Samuli Ristimäki - Portfolio' },
+							{ name: 'keywords', content: 'samuli, ristimaki, portfolio, new, media, design' }
 						]}>
 						<html lang="en" />
 						<script src={withPrefix('dat.gui.min.js')} type="text/javascript" />
