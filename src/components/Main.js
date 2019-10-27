@@ -8,6 +8,8 @@ import pic04 from '../images/pallo2.jpg';
 import pic05 from '../images/ufo.jpg';
 import pic06 from '../images/Untitled-1.png';
 import pic07 from '../images/IMG_0120.jpg';
+import pic08 from '../images/btn.png';
+import pic09 from '../images/hypehel.png';
 
 class Main extends React.Component {
 	render() {
@@ -242,7 +244,7 @@ class Main extends React.Component {
 							allow="autoplay; fullscreen"
 							allowfullscreen></iframe>
 					</div>
-					<p>you could just fly away</p>
+					<p>you could just fly away (2018)</p>
 					<div className="videoWrapper videoWrapper2">
 						<iframe
 							src="https://player.vimeo.com/video/367605053"
@@ -252,7 +254,7 @@ class Main extends React.Component {
 							allow="autoplay; fullscreen"
 							allowfullscreen></iframe>
 					</div>
-					<p>things could’ve ended differently</p>
+					<p>things could’ve ended differently (2019)</p>
 					<div className="videoWrapper videoWrapper3">
 						<iframe
 							src="https://player.vimeo.com/video/367605233"
@@ -262,12 +264,30 @@ class Main extends React.Component {
 							allow="autoplay; fullscreen"
 							allowfullscreen></iframe>
 					</div>
-					<p>way too many sleepless nights</p>
+					<p>way too many sleepless nights (2019)</p>
 					<h3 className="major">Traditional painting</h3>
 					<span className="image main">
 						<img src={pic07} alt="" />
 					</span>
 					<p>Elisabet (2019)</p>
+					{close}
+					<h3 className="major">Web</h3>
+					<span className="image main">
+						<img src={pic08} alt="" />
+					</span>
+					<p>
+						<a href="https://elegant-jepsen-a5476c.netlify.com">
+							btn.design (2018)
+						</a>
+					</p>
+					<span className="image main">
+						<img src={pic09} alt="" />
+					</span>
+					<p>
+						<a href="https://hypehel.herokuapp.com/">
+							Hypehel (2018)
+						</a>
+					</p>
 					{close}
 				</article>
 
