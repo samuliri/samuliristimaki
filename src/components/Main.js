@@ -37,15 +37,15 @@ class Main extends React.Component {
 						<img src={pic01} alt="" />
 					</span>
 					<p>
-						When I was younger I wondered what I wanted to do when I'm older, I
+						When I was younger I wondered what I wanted to do when I'm older. I
 						didn't know the answer because it had been with me most of my life.
 						I was interested in information technology and, unknowingly, in new
-						media because my family only had an Apple PowerBook 1999. This was a
-						bit annoying because at the time, the machine couldn't do all the
-						same things what my friends Windows machine could do. Afterwards I
-						understand why this was a great thing. I got into the creative
-						virtual world because there were no games to play, so I entertained
-						myself with image editing and own web pages.
+						media because my family only had an 1999 Apple PowerBook. This was a
+						bit frustrating at the time because the machine couldn't do all the
+						same things that my friends Windows machine could do. Afterwards I
+						understand why this was a great thing. Because there were no games 
+						to play, I entertained myself with image editing and own web pages. 
+						I got into the creative virtual world.
 					</p>
 					<p>
 						I currently work as a developer at a large media house. I am very
@@ -276,7 +276,7 @@ class Main extends React.Component {
 						<img src={pic08} alt="" />
 					</span>
 					<p>
-						<a href="https://elegant-jepsen-a5476c.netlify.com">
+						<a href="https://btndsgn.netlify.com">
 							btn.design (2018)
 						</a>
 					</p>
