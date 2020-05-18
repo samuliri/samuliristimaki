@@ -265,18 +265,20 @@ class Main extends React.Component {
 							allowfullscreen></iframe>
 					</div>
 					<p>way too many sleepless nights (2019)</p>
+					{/*
 					<h3 className="major">Traditional painting</h3>
 					<span className="image main">
 						<img src={pic07} alt="" />
 					</span>
 					<p>Elisabet (2019)</p>
-					{close}
+					-->
+					*/}
 					<h3 className="major">Web</h3>
 					<span className="image main">
 						<img src={pic08} alt="" />
 					</span>
 					<p>
-						<a href="https://btndsgn.netlify.com">
+						<a href="https://btndsgn.netlify.com" target="_blank">
 							btn.design (2018)
 						</a>
 					</p>
@@ -284,8 +286,14 @@ class Main extends React.Component {
 						<img src={pic09} alt="" />
 					</span>
 					<p>
-						<a href="https://hypehel.herokuapp.com/">
+						<a href="https://hypehel.herokuapp.com/" target="_blank">
 							Hypehel (2018)
+						</a>
+					</p>
+					<iframe src="https://www.openprocessing.org/sketch/897146/embed/?plusEmbedHash=M2I2Y2EyYzk5NGYwZmU0ZmVjYmU5ZjY3NzEwNTMwNzA4Njk4YjI2YTU3ZTM1YTZkNDk5M2I0ZDQ4MGE1YWM5NmQwMmNmM2IxM2JmMWVlNTJjNDIwOGQ2ODY2ODRmYjQyZGMyODkxZDExMmVkMjlhNjNjZjgwNWM3ZTBkMzdjNWZwNFdGenBHa1lVSC9kbUdWOG9wNDJ1alozeEQ5U2JoMlVyN2Y4dkszbml0RkZvYkRRK0tNRmFoSkdEdHdIU1RkUnN4ODdYUk5oMFVCUnJ2QkdENzZRZz09" width="100%" height="300"></iframe>
+					<p>
+						<a href="https://www.openprocessing.org/sketch/897146" target="_blank">
+							Web (2020)
 						</a>
 					</p>
 					{close}
