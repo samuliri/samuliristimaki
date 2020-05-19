@@ -10,6 +10,7 @@ import pic06 from '../images/Untitled-1.png';
 import pic07 from '../images/IMG_0120.jpg';
 import pic08 from '../images/btn.png';
 import pic09 from '../images/hypehel.png';
+import pic10 from '../images/aura.jpg';
 
 class Main extends React.Component {
 	render() {
@@ -234,15 +235,26 @@ class Main extends React.Component {
 						<img src={pic04} alt="" />
 					</span>
 					<p>Untitled (2019)</p>
+					<h3 className="major">Generative art</h3>
+					<span className="image main">
+						<img src={pic10} alt="" />
+					</span>
+					<p>Aura (2020)</p>
+					<iframe src="https://www.openprocessing.org/sketch/897146/embed/?plusEmbedHash=M2I2Y2EyYzk5NGYwZmU0ZmVjYmU5ZjY3NzEwNTMwNzA4Njk4YjI2YTU3ZTM1YTZkNDk5M2I0ZDQ4MGE1YWM5NmQwMmNmM2IxM2JmMWVlNTJjNDIwOGQ2ODY2ODRmYjQyZGMyODkxZDExMmVkMjlhNjNjZjgwNWM3ZTBkMzdjNWZwNFdGenBHa1lVSC9kbUdWOG9wNDJ1alozeEQ5U2JoMlVyN2Y4dkszbml0RkZvYkRRK0tNRmFoSkdEdHdIU1RkUnN4ODdYUk5oMFVCUnJ2QkdENzZRZz09" width="100%" height="300"></iframe>
+					<p>
+						<a href="https://www.openprocessing.org/sketch/897146" target="_blank">
+							Web (2020)
+						</a>
+					</p>
 					<h3 className="major">Sound</h3>
 					<div className="videoWrapper videoWrapper1">
 						<iframe
 							src="https://player.vimeo.com/video/367604711"
 							width="640"
 							height="360"
-							frameborder="0"
+							frameBorder="0"
 							allow="autoplay; fullscreen"
-							allowfullscreen></iframe>
+							allowFullScreen></iframe>
 					</div>
 					<p>you could just fly away (2018)</p>
 					<div className="videoWrapper videoWrapper2">
@@ -250,9 +262,9 @@ class Main extends React.Component {
 							src="https://player.vimeo.com/video/367605053"
 							width="640"
 							height="639"
-							frameborder="0"
+							frameBorder="0"
 							allow="autoplay; fullscreen"
-							allowfullscreen></iframe>
+							allowFullScreen></iframe>
 					</div>
 					<p>things could’ve ended differently (2019)</p>
 					<div className="videoWrapper videoWrapper3">
@@ -260,9 +272,9 @@ class Main extends React.Component {
 							src="https://player.vimeo.com/video/367605233"
 							width="640"
 							height="465"
-							frameborder="0"
+							frameBorder="0"
 							allow="autoplay; fullscreen"
-							allowfullscreen></iframe>
+							allowFullScreen></iframe>
 					</div>
 					<p>way too many sleepless nights (2019)</p>
 					{/*
@@ -288,12 +300,6 @@ class Main extends React.Component {
 					<p>
 						<a href="https://hypehel.herokuapp.com/" target="_blank">
 							Hypehel (2018)
-						</a>
-					</p>
-					<iframe src="https://www.openprocessing.org/sketch/897146/embed/?plusEmbedHash=M2I2Y2EyYzk5NGYwZmU0ZmVjYmU5ZjY3NzEwNTMwNzA4Njk4YjI2YTU3ZTM1YTZkNDk5M2I0ZDQ4MGE1YWM5NmQwMmNmM2IxM2JmMWVlNTJjNDIwOGQ2ODY2ODRmYjQyZGMyODkxZDExMmVkMjlhNjNjZjgwNWM3ZTBkMzdjNWZwNFdGenBHa1lVSC9kbUdWOG9wNDJ1alozeEQ5U2JoMlVyN2Y4dkszbml0RkZvYkRRK0tNRmFoSkdEdHdIU1RkUnN4ODdYUk5oMFVCUnJ2QkdENzZRZz09" width="100%" height="300"></iframe>
-					<p>
-						<a href="https://www.openprocessing.org/sketch/897146" target="_blank">
-							Web (2020)
 						</a>
 					</p>
 					{close}
