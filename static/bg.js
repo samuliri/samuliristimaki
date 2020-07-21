@@ -1880,4 +1880,4 @@ setTimeout(function() {
 		}
 		return hash;
 	}
-}, 900);
+}, 1000);
