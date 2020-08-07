@@ -240,7 +240,11 @@ class Main extends React.Component {
 						<img src={pic10} alt="" />
 					</span>
 					<p>Aura (2020)</p>
-					<iframe src="https://www.openprocessing.org/sketch/897146/embed/?plusEmbedHash=M2I2Y2EyYzk5NGYwZmU0ZmVjYmU5ZjY3NzEwNTMwNzA4Njk4YjI2YTU3ZTM1YTZkNDk5M2I0ZDQ4MGE1YWM5NmQwMmNmM2IxM2JmMWVlNTJjNDIwOGQ2ODY2ODRmYjQyZGMyODkxZDExMmVkMjlhNjNjZjgwNWM3ZTBkMzdjNWZwNFdGenBHa1lVSC9kbUdWOG9wNDJ1alozeEQ5U2JoMlVyN2Y4dkszbml0RkZvYkRRK0tNRmFoSkdEdHdIU1RkUnN4ODdYUk5oMFVCUnJ2QkdENzZRZz09" width="100%" height="300"></iframe>
+					<iframe 
+						src="https://www.openprocessing.org/sketch/897146/embed/?plusEmbedHash=M2I2Y2EyYzk5NGYwZmU0ZmVjYmU5ZjY3NzEwNTMwNzA4Njk4YjI2YTU3ZTM1YTZkNDk5M2I0ZDQ4MGE1YWM5NmQwMmNmM2IxM2JmMWVlNTJjNDIwOGQ2ODY2ODRmYjQyZGMyODkxZDExMmVkMjlhNjNjZjgwNWM3ZTBkMzdjNWZwNFdGenBHa1lVSC9kbUdWOG9wNDJ1alozeEQ5U2JoMlVyN2Y4dkszbml0RkZvYkRRK0tNRmFoSkdEdHdIU1RkUnN4ODdYUk5oMFVCUnJ2QkdENzZRZz09" 
+						loading="lazy" 
+						width="100%" 
+						height="300"></iframe>
 					<p>
 						<a href="https://www.openprocessing.org/sketch/897146" target="_blank">
 							Web (2020)
@@ -250,6 +254,7 @@ class Main extends React.Component {
 					<div className="videoWrapper videoWrapper1">
 						<iframe
 							src="https://player.vimeo.com/video/367604711"
+							loading="lazy"
 							width="640"
 							height="360"
 							frameBorder="0"
@@ -260,6 +265,7 @@ class Main extends React.Component {
 					<div className="videoWrapper videoWrapper2">
 						<iframe
 							src="https://player.vimeo.com/video/367605053"
+							loading="lazy"
 							width="640"
 							height="639"
 							frameBorder="0"
@@ -270,6 +276,7 @@ class Main extends React.Component {
 					<div className="videoWrapper videoWrapper3">
 						<iframe
 							src="https://player.vimeo.com/video/367605233"
+							loading="lazy"
 							width="640"
 							height="465"
 							frameBorder="0"
