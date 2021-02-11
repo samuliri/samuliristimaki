@@ -250,7 +250,7 @@ class Main extends React.Component {
 							Web (2020)
 						</a>
 					</p>
-					<h3 className="major">Sound</h3>
+					<h3 className="major">Sound & Video</h3>
 					<div className="videoWrapper videoWrapper1">
 						<iframe
 							src="https://player.vimeo.com/video/367604711"
@@ -284,6 +284,16 @@ class Main extends React.Component {
 							allowFullScreen></iframe>
 					</div>
 					<p>way too many sleepless nights (2019)</p>
+					<div className="videoWrapper videoWrapper4">
+					<iframe 
+						width="560" 
+						height="315" 
+						src="https://www.youtube.com/embed/WnZt1DGP62I?rel=0" 
+						frameborder="0" 
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+						allowfullscreen></iframe>
+					</div>
+					<p>Norway summer roadtrip '20 // SUPER 8 FILM</p>
 					{/*
 					<h3 className="major">Traditional painting</h3>
 					<span className="image main">
