@@ -11,6 +11,9 @@ import pic07 from '../images/IMG_0120.jpg';
 import pic08 from '../images/btn.png';
 import pic09 from '../images/hypehel.png';
 import pic10 from '../images/aura.jpg';
+import pic11 from '../images/Untitled_Artwork.jpg';
+import pic12 from '../images/cover.png';
+import pic13 from '../images/process10.png';
 
 class Main extends React.Component {
 	render() {
@@ -29,31 +32,23 @@ class Main extends React.Component {
 				style={this.props.timeout ? { display: 'flex' } : { display: 'none' }}>
 				<article
 					id="intro"
-					className={`${this.props.article === 'intro' ? 'active' : ''} ${
-						this.props.articleTimeout ? 'timeout' : ''
-					}`}
+					className={`${this.props.article === 'intro' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''
+						}`}
 					style={{ display: 'none' }}>
 					<h2 className="major">Intro</h2>
 					<span className="image cover">
 						<img src={pic01} alt="" />
 					</span>
 					<p>
-						When I was younger I wondered what I wanted to do when I'm older. I
-						didn't know the answer because it had been with me most of my life.
+						When I was younger, I wondered a lot about what I would like to do when I'm older.
+						I didn't know the answer because it had been with me most of my life.
 						I was interested in information technology and, unknowingly, in new
 						media because my family only had an 1999 Apple PowerBook. This was a
 						bit frustrating at the time because the machine couldn't do all the
 						same things that my friends Windows machine could do. Afterwards I
-						understand why this was a great thing. Because there were no games 
-						to play, I entertained myself with image editing and own web pages. 
+						understand why this was a great thing. Because there were no games
+						to play, I entertained myself with image editing and own web pages.
 						I got into the creative virtual world.
-					</p>
-					<p>
-						I currently work as a developer at a large media house. I am very
-						interested in user interfaces and front-end development. I study New
-						Media Design and Production in university. My strengths are
-						international experience and strong desing-based programming
-						experience.
 					</p>
 					<br></br>
 					<ul className="w-list-unstyled gradient-border">
@@ -121,7 +116,7 @@ class Main extends React.Component {
 							data-ix="tag-displaay-info-5"
 							className="about-skills-list-item">
 							<div className="marker-block w-clearfix">
-								<span className="timeline-date">2017-Today</span>
+								<span className="timeline-date">2017-2022</span>
 								<span className="marker-text">Developer, Frantic</span>
 							</div>
 						</li>
@@ -129,10 +124,18 @@ class Main extends React.Component {
 							data-ix="tag-displaay-info-5"
 							className="about-skills-list-item">
 							<div className="marker-block w-clearfix">
-								<span className="timeline-date">2018-Today</span>
+								<span className="timeline-date">2018-2021</span>
 								<span className="marker-text">
 									Aalto University, New Media Design and Production
 								</span>
+							</div>
+						</li>
+						<li
+							data-ix="tag-displaay-info-5"
+							className="about-skills-list-item">
+							<div className="marker-block w-clearfix">
+								<span className="timeline-date">2022-Today</span>
+								<span className="marker-text">Senior Software Developer, Reaktor</span>
 							</div>
 						</li>
 					</ul>
@@ -141,9 +144,8 @@ class Main extends React.Component {
 
 				<article
 					id="work"
-					className={`${this.props.article === 'work' ? 'active' : ''} ${
-						this.props.articleTimeout ? 'timeout' : ''
-					}`}
+					className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''
+						}`}
 					style={{ display: 'none' }}>
 					<h2 className="major">Work</h2>
 
@@ -151,18 +153,29 @@ class Main extends React.Component {
 						<ul>
 							<li>
 								<b>
+									Reaktor
+									<br></br>
+									5/2022-
+									<br></br>
+									Senior Software Developer
+								</b>
+								<br></br>
+								<p>
+									Front-end development...
+								</p>
+							</li>
+							<li>
+								<b>
 									Frantic
 									<br></br>
-									8/2017-
+									8/2017-4/2022
 									<br></br>
 									Developer
 								</b>
 								<br></br>
 								<p>
-									Front-end development, design and development of web user
-									interfaces, responsive design and development. Work for
-									clients: University of the Arts Helsinki, Länsiauto, Kopiosto,
-									National Audit Office of Finland, R-kioski and Finnair.
+									Human-focused full stack web design and development from React to Angular to Wordpress to AWS to Serverless to Flutter to Whatever.
+									Work for clients: Marimekko, University of the Arts Helsinki, Länsiauto, Kopiosto, National Audit Office of Finland, R-kioski and Finnair.
 								</p>
 							</li>
 							<li>
@@ -221,12 +234,15 @@ class Main extends React.Component {
 
 				<article
 					id="art"
-					className={`${this.props.article === 'art' ? 'active' : ''} ${
-						this.props.articleTimeout ? 'timeout' : ''
-					}`}
+					className={`${this.props.article === 'art' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''
+						}`}
 					style={{ display: 'none' }}>
 					<h2 className="major">Art</h2>
 					<h3 className="major">Digital painting</h3>
+					<span className="image main">
+						<img src={pic11} alt="" />
+					</span>
+					<p>Untitled (2021)</p>
 					<span className="image main">
 						<img src={pic03} alt="" />
 					</span>
@@ -237,13 +253,17 @@ class Main extends React.Component {
 					<p>Untitled (2019)</p>
 					<h3 className="major">Generative art</h3>
 					<span className="image main">
+						<img src={pic13} alt="" />
+					</span>
+					<p>Process 10.1 (2021)</p>
+					<span className="image main">
 						<img src={pic10} alt="" />
 					</span>
 					<p>Aura (2020)</p>
-					<iframe 
-						src="https://www.openprocessing.org/sketch/897146/embed/?plusEmbedHash=M2I2Y2EyYzk5NGYwZmU0ZmVjYmU5ZjY3NzEwNTMwNzA4Njk4YjI2YTU3ZTM1YTZkNDk5M2I0ZDQ4MGE1YWM5NmQwMmNmM2IxM2JmMWVlNTJjNDIwOGQ2ODY2ODRmYjQyZGMyODkxZDExMmVkMjlhNjNjZjgwNWM3ZTBkMzdjNWZwNFdGenBHa1lVSC9kbUdWOG9wNDJ1alozeEQ5U2JoMlVyN2Y4dkszbml0RkZvYkRRK0tNRmFoSkdEdHdIU1RkUnN4ODdYUk5oMFVCUnJ2QkdENzZRZz09" 
-						loading="lazy" 
-						width="100%" 
+					<iframe
+						src="https://www.openprocessing.org/sketch/897146/embed/?plusEmbedHash=M2I2Y2EyYzk5NGYwZmU0ZmVjYmU5ZjY3NzEwNTMwNzA4Njk4YjI2YTU3ZTM1YTZkNDk5M2I0ZDQ4MGE1YWM5NmQwMmNmM2IxM2JmMWVlNTJjNDIwOGQ2ODY2ODRmYjQyZGMyODkxZDExMmVkMjlhNjNjZjgwNWM3ZTBkMzdjNWZwNFdGenBHa1lVSC9kbUdWOG9wNDJ1alozeEQ5U2JoMlVyN2Y4dkszbml0RkZvYkRRK0tNRmFoSkdEdHdIU1RkUnN4ODdYUk5oMFVCUnJ2QkdENzZRZz09"
+						loading="lazy"
+						width="100%"
 						height="300"></iframe>
 					<p>
 						<a href="https://www.openprocessing.org/sketch/897146" target="_blank">
@@ -285,13 +305,13 @@ class Main extends React.Component {
 					</div>
 					<p>way too many sleepless nights (2019)</p>
 					<div className="videoWrapper videoWrapper4">
-					<iframe 
-						width="560" 
-						height="315" 
-						src="https://www.youtube.com/embed/WnZt1DGP62I?rel=0" 
-						frameborder="0" 
-						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-						allowfullscreen></iframe>
+						<iframe
+							width="560"
+							height="315"
+							src="https://www.youtube.com/embed/WnZt1DGP62I?rel=0"
+							frameborder="0"
+							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+							allowfullscreen></iframe>
 					</div>
 					<p>Norway summer roadtrip '20 // SUPER 8 FILM</p>
 					{/*
@@ -303,6 +323,14 @@ class Main extends React.Component {
 					-->
 					*/}
 					<h3 className="major">Web</h3>
+					<span className="image main">
+						<img src={pic12} alt="" />
+					</span>
+					<p>
+						<a href="https://alt-gen-b50bc.firebaseapp.com/" target="_blank">
+							alt-gen (2021)
+						</a>
+					</p>
 					<span className="image main">
 						<img src={pic08} alt="" />
 					</span>
@@ -324,9 +352,8 @@ class Main extends React.Component {
 
 				<article
 					id="contact"
-					className={`${this.props.article === 'contact' ? 'active' : ''} ${
-						this.props.articleTimeout ? 'timeout' : ''
-					}`}
+					className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''
+						}`}
 					style={{ display: 'none' }}>
 					<h2 className="major">Contact</h2>
 					<h3>
