@@ -2,7 +2,7 @@ module.exports = {
 	siteMetadata: {
 		title: 'Samuli Ristimäki',
 		author: 'Samuli Ristimäki',
-		description: 'Samuli Ristimäki - Portfolio'
+		description: 'Samuli Ristimäki — Senior Software Developer building interactive in-game web experiences'
 	},
 	plugins: [
 		'gatsby-plugin-react-helmet',

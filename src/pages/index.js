@@ -15,7 +15,8 @@ class IndexPage extends React.Component {
 			timeout: false,
 			articleTimeout: false,
 			article: '',
-			loading: 'is-loading'
+			loading: 'is-loading',
+			projectsUnlocked: false
 		};
 		this.handleOpenArticle = this.handleOpenArticle.bind(this);
 		this.handleCloseArticle = this.handleCloseArticle.bind(this);
@@ -28,6 +29,13 @@ class IndexPage extends React.Component {
 			this.setState({ loading: '' });
 		}, 100);
 		document.addEventListener('mousedown', this.handleClickOutside);
+
+		const params = new URLSearchParams(window.location.search);
+		if (params.get('access') === 'whereiswaldo') {
+			this.setState({ projectsUnlocked: true }, () => {
+				setTimeout(() => this.handleOpenArticle('projects'), 600);
+			});
+		}
 	}
 
 	componentWillUnmount() {
@@ -42,6 +50,12 @@ class IndexPage extends React.Component {
 	}
 
 	handleOpenArticle(article) {
+		if (article === 'projects' && !this.state.projectsUnlocked) {
+			const input = window.prompt('Enter password to view projects:');
+			if (input !== 'whereiswaldo') return;
+			this.setState({ projectsUnlocked: true });
+		}
+
 		this.setState({
 			isArticleVisible: !this.state.isArticleVisible,
 			article

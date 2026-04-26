@@ -2,18 +2,20 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import pic01 from '../images/bg.jpg';
-import pic02 from '../images/pic02.jpg';
 import pic03 from '../images/Kipsi-1.jpg';
 import pic04 from '../images/pallo2.jpg';
-import pic05 from '../images/ufo.jpg';
-import pic06 from '../images/Untitled-1.png';
-import pic07 from '../images/IMG_0120.jpg';
 import pic08 from '../images/btn.png';
 import pic09 from '../images/hypehel.png';
 import pic10 from '../images/aura.jpg';
 import pic11 from '../images/Untitled_Artwork.jpg';
 import pic12 from '../images/cover.png';
 import pic13 from '../images/process10.png';
+import balloonRace from '../images/balloon-race.jpg';
+import anniversary from '../images/anniversary.png';
+import wrapped from '../images/wrapped.png';
+import communityHub from '../images/comunity-hub.png';
+import halftime from '../images/halftime.png';
+import bones from '../images/bones.png';
 
 class Main extends React.Component {
 	render() {
@@ -30,31 +32,27 @@ class Main extends React.Component {
 				ref={this.props.setWrapperRef}
 				id="main"
 				style={this.props.timeout ? { display: 'flex' } : { display: 'none' }}>
+
+				{/* ── ABOUT ── */}
 				<article
-					id="intro"
-					className={`${this.props.article === 'intro' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''
-						}`}
+					id="about"
+					className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`}
 					style={{ display: 'none' }}>
-					<h2 className="major">Intro</h2>
+					<h2 className="major">About</h2>
 					<span className="image cover">
 						<img src={pic01} alt="" />
 					</span>
 					<p>
-						When I was younger, I wondered a lot about what I would like to do when I'm older.
-						I didn't know the answer because it had been with me most of my life.
-						I was interested in information technology and, unknowingly, in new
-						media because my family only had an 1999 Apple PowerBook. This was a
-						bit frustrating at the time because the machine couldn't do all the
-						same things that my friends Windows machine could do. Afterwards I
-						understand why this was a great thing. Because there were no games
-						to play, I entertained myself with image editing and own web pages.
-						I got into the creative virtual world.
+						<i>
+						When I was a kid, my family only had a 1999 Apple PowerBook. No games,
+						so I entertained myself with building my own web pages.
+						Frustrating at the time, but looking back, it was the best thing that could've happened.
+						I got pulled into the creative side of technology and never really left.
+						</i>
 					</p>
 					<br></br>
 					<ul className="w-list-unstyled gradient-border">
-						<li
-							data-ix="tag-displaay-info-1"
-							className="about-skills-list-item">
+						<li className="about-skills-list-item">
 							<div className="marker-block w-clearfix">
 								<span className="timeline-date">1992</span>
 								<span className="marker-text">
@@ -62,182 +60,398 @@ class Main extends React.Component {
 								</span>
 							</div>
 						</li>
-						<li
-							data-ix="tag-displaay-info-1"
-							className="about-skills-list-item">
-							<div className="marker-block w-clearfix">
-								<span className="timeline-date">1992-2011</span>
-								<span className="marker-text">Taking it easy</span>
-							</div>
-						</li>
-						<li
-							data-ix="tag-displaay-info-3"
-							className="about-skills-list-item">
+						<li className="about-skills-list-item">
 							<div className="marker-block w-clearfix">
 								<span className="timeline-date">2011-2015</span>
 								<span className="marker-text">
-									Helsinki Metropolia University of Applied Sciences, Engineer
-									of Information Technology
+									Metropolia University — B.Eng. Information Technology
 								</span>
 							</div>
 						</li>
-						<li
-							data-ix="tag-displaay-info-3"
-							className="about-skills-list-item">
-							<div className="marker-block w-clearfix">
-								<span className="timeline-date">2014</span>
-								<span className="marker-text">
-									Bilkent University, Computer Technology and Information
-									Systems
-								</span>
-							</div>
-						</li>
-						<li
-							data-ix="tag-displaay-info-4"
-							className="about-skills-list-item">
+						<li className="about-skills-list-item">
 							<div className="marker-block w-clearfix">
 								<span className="timeline-date">2014-2016</span>
 								<span className="marker-text">
-									Web Developer, Finnish Net Solutions&nbsp;
+									Web Developer, Finnish Net Solutions
 								</span>
 							</div>
 						</li>
-						<li
-							data-ix="tag-displaay-info-5"
-							className="about-skills-list-item">
+						<li className="about-skills-list-item">
 							<div className="marker-block w-clearfix">
 								<span className="timeline-date">2016-2017</span>
 								<span className="marker-text">
-									Application Designer, InnovationLab at A-lehdet
+									Application Designer, A-lehdet
 								</span>
 							</div>
 						</li>
-						<li
-							data-ix="tag-displaay-info-5"
-							className="about-skills-list-item">
+						<li className="about-skills-list-item">
 							<div className="marker-block w-clearfix">
 								<span className="timeline-date">2017-2022</span>
 								<span className="marker-text">Developer, Frantic</span>
 							</div>
 						</li>
-						<li
-							data-ix="tag-displaay-info-5"
-							className="about-skills-list-item">
+						<li className="about-skills-list-item">
 							<div className="marker-block w-clearfix">
 								<span className="timeline-date">2018-2021</span>
 								<span className="marker-text">
-									Aalto University, New Media Design and Production
+									Aalto University — M.A. New Media Design and Production
 								</span>
 							</div>
 						</li>
-						<li
-							data-ix="tag-displaay-info-5"
-							className="about-skills-list-item">
+						<li className="about-skills-list-item">
 							<div className="marker-block w-clearfix">
-								<span className="timeline-date">2022-Today</span>
+								<span className="timeline-date">2022-</span>
 								<span className="marker-text">Senior Software Developer, Reaktor</span>
+							</div>
+						</li>
+						<li className="about-skills-list-item">
+							<div className="marker-block w-clearfix">
+								<span className="timeline-date">2023-2025</span>
+								<span className="marker-text">
+									Laurea University — MBA, Innovative Digital Services
+								</span>
+							</div>
+						</li>
+						<li className="about-skills-list-item">
+							<div className="marker-block w-clearfix">
+								<span className="timeline-date">2024-</span>
+								<span className="marker-text">Developer at Supercell (via Reaktor)</span>
 							</div>
 						</li>
 					</ul>
 					{close}
 				</article>
 
+				{/* ── PROJECTS ── */}
 				<article
-					id="work"
-					className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''
-						}`}
+					id="projects"
+					className={`${this.props.article === 'projects' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`}
 					style={{ display: 'none' }}>
-					<h2 className="major">Work</h2>
+					<h2 className="major">Projects</h2>
 
-					<div className="cv">
-						<ul>
-							<li>
-								<b>
-									Reaktor
-									<br></br>
-									5/2022-
-									<br></br>
-									Senior Software Developer
-								</b>
-								<br></br>
-								<p>
-									Front-end development...
-								</p>
-							</li>
-							<li>
-								<b>
-									Frantic
-									<br></br>
-									8/2017-4/2022
-									<br></br>
-									Developer
-								</b>
-								<br></br>
-								<p>
-									Human-focused full stack web design and development from React to Angular to Wordpress to AWS to Serverless to Flutter to Whatever.
-									Work for clients: Marimekko, University of the Arts Helsinki, Länsiauto, Kopiosto, National Audit Office of Finland, R-kioski and Finnair.
-								</p>
-							</li>
-							<li>
-								<b>
-									A-lehdet
-									<br></br>
-									5/2016-8/2017
-									<br></br>
-									Application Designer
-								</b>
-								<br></br>
-								<p>
-									Front-end innovation, design and development. My role on an
-									in-house team was to develop the user experience and user
-									interfaces of web content management systems. Projects:
-									(Lily.fi, Theblogawards.fi and Meillakotona.fi).
-								</p>
-							</li>
-							<li>
-								<b>
-									Finnish Net Solutions
-									<br></br>
-									6/2014-5/2016
-									<br></br>
-									Web Developer
-								</b>
-								<br></br>
-								<p>
-									Web development of information system for therapists
-									(Diarium.fi). Tasks include for example developing the
-									appointment system, client listing and responsive mobile
-									design. I’ve also worked on several other projects.
-								</p>
-							</li>
-							<li>
-								<b>
-									University of Helsinki
-									<br></br>
-									6/2013-8/2013
-									<br></br>
-									Technical Assistant
-								</b>
-								<br></br>
-								<p>
-									Software development in Java and XML. The project was to
-									program a software that generates graphical user interfaces
-									based on the application programming interface. The work also
-									included becoming familiar with a major open source project
-									(Anduril.org) and its development.
-								</p>
-							</li>
-						</ul>
+					<h3>At Supercell</h3>
+					<p>
+						Since September 2024 I've been in the Supercell Community Tech team,
+						building interactive in-game web experiences that reach millions of daily
+						active players. Here are some of the things I've shipped:
+					</p>
+
+					<h4>Balloon Race — Clash Royale</h4>
+					<div style={{
+						display: 'flex',
+						justifyContent: 'center',
+						marginBottom: '2rem'
+					}}>
+						<div style={{
+							width: '260px',
+							padding: '12px 8px',
+							background: '#1a1a1a',
+							borderRadius: '36px',
+							border: '3px solid #3a3a3a',
+							boxShadow: '0 20px 60px rgba(0,0,0,0.5), inset 0 0 4px rgba(255,255,255,0.05)'
+						}}>
+							<div style={{
+								width: '80px',
+								height: '6px',
+								background: '#2a2a2a',
+								borderRadius: '3px',
+								margin: '4px auto 10px'
+							}} />
+							<img
+								src={balloonRace}
+								alt="Balloon Race community event in Clash Royale"
+								style={{
+									width: '100%',
+									borderRadius: '24px',
+									display: 'block'
+								}}
+							/>
+							<div style={{
+								width: '100px',
+								height: '4px',
+								background: '#2a2a2a',
+								borderRadius: '2px',
+								margin: '10px auto 4px'
+							}} />
+						</div>
 					</div>
+					<p>
+						A team racing event where community cheer their team forward in a real-time race
+						to the finish line. I built the full experience end-to-end: real-time race
+						progression, cheer multiplier, podium screen with position-based
+						rewards.
+						The backend runs on Lambda + DynamoDB with secure reward claim verification.
+						Optimized for zero CLS and instant font loading.
+					</p>
+
+					<h4>Wrapped — Hay Day</h4>
+					<div style={{
+						display: 'flex',
+						justifyContent: 'center',
+						marginBottom: '2rem',
+						overflow: 'hidden'
+					}}>
+						<div style={{
+							maxWidth: '100%',
+							padding: '8px 12px',
+							background: '#1a1a1a',
+							borderRadius: '36px',
+							border: '3px solid #3a3a3a',
+							boxShadow: '0 20px 60px rgba(0,0,0,0.5), inset 0 0 4px rgba(255,255,255,0.05)',
+							display: 'flex',
+							alignItems: 'center',
+							gap: '10px',
+							boxSizing: 'border-box'
+						}}>
+							<div style={{
+								width: '6px',
+								height: '80px',
+								background: '#2a2a2a',
+								borderRadius: '3px',
+								flexShrink: 0
+							}} />
+							<img
+								src={wrapped}
+								alt="Wrapped year-in-review experience for Hay Day"
+								style={{
+									minWidth: 0,
+									flex: 1,
+									borderRadius: '24px',
+									display: 'block'
+								}}
+							/>
+							<div style={{
+								width: '4px',
+								height: '100px',
+								background: '#2a2a2a',
+								borderRadius: '2px',
+								flexShrink: 0
+							}} />
+						</div>
+					</div>
+					<p>
+						An interactive year-in-review experience that takes players through
+						personalized stats: years played, crops harvested, friends made; Across a
+						multi-slide journey with Rive animations, a memory game, canvas-rendered community
+						stats, and social sharing. Sound effects, responsive iPad layouts, and
+						multi-language localization across all major regions.
+					</p>
+
+					<h4>Anniversary — Interactive Voting Event</h4>
+					<div style={{
+						display: 'flex',
+						justifyContent: 'center',
+						marginBottom: '2rem'
+					}}>
+						<div style={{
+							width: '260px',
+							padding: '12px 8px',
+							background: '#1a1a1a',
+							borderRadius: '36px',
+							border: '3px solid #3a3a3a',
+							boxShadow: '0 20px 60px rgba(0,0,0,0.5), inset 0 0 4px rgba(255,255,255,0.05)'
+						}}>
+							<div style={{
+								width: '80px',
+								height: '6px',
+								background: '#2a2a2a',
+								borderRadius: '3px',
+								margin: '4px auto 10px'
+							}} />
+							<img
+								src={anniversary}
+								alt="Anniversary interactive voting event"
+								style={{
+									width: '100%',
+									borderRadius: '24px',
+									display: 'block'
+								}}
+							/>
+							<div style={{
+								width: '100px',
+								height: '4px',
+								background: '#2a2a2a',
+								borderRadius: '2px',
+								margin: '10px auto 4px'
+							}} />
+						</div>
+					</div>
+					<p>
+						A multi-day progressive event where players vote on characters through animated
+						presents. Daily voting with poll results, reward claiming with animation sequences,
+						SpellFactory voucher integration, and Contentful CMS for dynamic content.
+						Full multi-language support and Snowplow analytics tracking.
+					</p>
+
+					<h4>Community Hub — Clash Royale</h4>
+					<div style={{
+						display: 'flex',
+						justifyContent: 'center',
+						marginBottom: '2rem'
+					}}>
+						<div style={{
+							width: '260px',
+							padding: '12px 8px',
+							background: '#1a1a1a',
+							borderRadius: '36px',
+							border: '3px solid #3a3a3a',
+							boxShadow: '0 20px 60px rgba(0,0,0,0.5), inset 0 0 4px rgba(255,255,255,0.05)'
+						}}>
+							<div style={{
+								width: '80px',
+								height: '6px',
+								background: '#2a2a2a',
+								borderRadius: '3px',
+								margin: '4px auto 10px'
+							}} />
+							<img
+								src={communityHub}
+								alt="Community Hub content platform in Clash Royale"
+								style={{
+									width: '100%',
+									borderRadius: '24px',
+									display: 'block'
+								}}
+							/>
+							<div style={{
+								width: '100px',
+								height: '4px',
+								background: '#2a2a2a',
+								borderRadius: '2px',
+								margin: '10px auto 4px'
+							}} />
+						</div>
+					</div>
+					<p>
+						The content platform living inside Clash Royale. I built the for example,
+						carousel, polls, the esports integration (live countdowns,
+						pre-live banners, article system), and shipped significant
+						performance improvements: AVIF/WebP image optimization, font optimization and
+						bundle reduction.
+					</p>
+
+					<h4>Super Bowl Halftime Countdown — Clash Royale</h4>
+					<div style={{
+						display: 'flex',
+						justifyContent: 'center',
+						marginBottom: '2rem'
+					}}>
+						<div style={{
+							width: '260px',
+							padding: '12px 8px',
+							background: '#1a1a1a',
+							borderRadius: '36px',
+							border: '3px solid #3a3a3a',
+							boxShadow: '0 20px 60px rgba(0,0,0,0.5), inset 0 0 4px rgba(255,255,255,0.05)'
+						}}>
+							<div style={{
+								width: '80px',
+								height: '6px',
+								background: '#2a2a2a',
+								borderRadius: '3px',
+								margin: '4px auto 10px'
+							}} />
+							<img
+								src={halftime}
+								alt="Super Bowl Halftime Countdown in Clash Royale"
+								style={{
+									width: '100%',
+									borderRadius: '12px',
+									display: 'block'
+								}}
+							/>
+							<div style={{
+								width: '100px',
+								height: '4px',
+								background: '#2a2a2a',
+								borderRadius: '2px',
+								margin: '10px auto 4px'
+							}} />
+						</div>
+					</div>
+					<p>
+						A dedicated countdown timer application for the Super Bowl halftime event.
+						Custom theme styling and branding for a one-of-a-kind live moment.
+					</p>
+
+					<h4>Bones — Clash Royale</h4>
+					<div style={{
+						display: 'flex',
+						justifyContent: 'center',
+						marginBottom: '2rem'
+					}}>
+						<div style={{
+							width: '260px',
+							padding: '12px 8px',
+							background: '#1a1a1a',
+							borderRadius: '36px',
+							border: '3px solid #3a3a3a',
+							boxShadow: '0 20px 60px rgba(0,0,0,0.5), inset 0 0 4px rgba(255,255,255,0.05)'
+						}}>
+							<div style={{
+								width: '80px',
+								height: '6px',
+								background: '#2a2a2a',
+								borderRadius: '3px',
+								margin: '4px auto 10px'
+							}} />
+							<img
+								src={bones}
+								alt="Bones community progress tracker in Clash Royale"
+								style={{
+									width: '100%',
+									borderRadius: '24px',
+									display: 'block'
+								}}
+							/>
+							<div style={{
+								width: '100px',
+								height: '4px',
+								background: '#2a2a2a',
+								borderRadius: '2px',
+								margin: '10px auto 4px'
+							}} />
+						</div>
+					</div>
+					<p>
+						A community progress tracker where players collectively gather bones to
+						unlock milestone rewards. Featuring a falling-bones physics simulation,
+						animated counter with real-time increments, pattern animations, and
+						milestone banners.
+					</p>
+
+					<h3>Tech I work with daily</h3>
+					<p>
+						Astro, React, Vue.js, TypeScript, Node.js, Python, AWS (Lambda, CloudFront, S3, DynamoDB),
+						Terraform, Docker, Rive, HLS.js, Zod, Playwright, Snowplow, Contentful, GraphQL, JWT.
+					</p>
 					{close}
 				</article>
 
+				{/* ── CREATIVE ── */}
 				<article
-					id="art"
-					className={`${this.props.article === 'art' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''
-						}`}
+					id="creative"
+					className={`${this.props.article === 'creative' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`}
 					style={{ display: 'none' }}>
-					<h2 className="major">Art</h2>
+					<h2 className="major">Creative</h2>
+					<p>
+						<i>
+							Sometimes the best way<br />
+							to understand technology<br />
+							is to make something<br />
+							beautiful with it.
+						</i>
+					</p>
+					<h3 className="major">Music</h3>
+					<iframe
+						style={{ borderRadius: '12px', marginBottom: '2rem' }}
+						src="https://open.spotify.com/embed/album/3kiXK8GmjoaLi28HUC37NF?utm_source=generator&theme=0"
+						width="100%"
+						height="352"
+						frameBorder="0"
+						allowFullScreen
+						allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+						loading="lazy"></iframe>
 					<h3 className="major">Digital painting</h3>
 					<span className="image main">
 						<img src={pic11} alt="" />
@@ -266,7 +480,7 @@ class Main extends React.Component {
 						width="100%"
 						height="300"></iframe>
 					<p>
-						<a href="https://www.openprocessing.org/sketch/897146" target="_blank">
+						<a href="https://www.openprocessing.org/sketch/897146" target="_blank" rel="noreferrer">
 							Web (2020)
 						</a>
 					</p>
@@ -292,7 +506,7 @@ class Main extends React.Component {
 							allow="autoplay; fullscreen"
 							allowFullScreen></iframe>
 					</div>
-					<p>things could’ve ended differently (2019)</p>
+					<p>things could've ended differently (2019)</p>
 					<div className="videoWrapper videoWrapper3">
 						<iframe
 							src="https://player.vimeo.com/video/367605233"
@@ -309,51 +523,27 @@ class Main extends React.Component {
 							width="560"
 							height="315"
 							src="https://www.youtube.com/embed/WnZt1DGP62I?rel=0"
-							frameborder="0"
+							frameBorder="0"
 							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-							allowfullscreen></iframe>
+							allowFullScreen></iframe>
 					</div>
 					<p>Norway summer roadtrip '20 // SUPER 8 FILM</p>
-					{/*
-					<h3 className="major">Traditional painting</h3>
-					<span className="image main">
-						<img src={pic07} alt="" />
-					</span>
-					<p>Elisabet (2019)</p>
-					-->
-					*/}
 					<h3 className="major">Web</h3>
 					<span className="image main">
 						<img src={pic12} alt="" />
 					</span>
 					<p>
-						<a href="https://alt-gen-b50bc.firebaseapp.com/" target="_blank">
+						<a href="https://alt-gen-b50bc.firebaseapp.com/" target="_blank" rel="noreferrer">
 							alt-gen (2021)
-						</a>
-					</p>
-					<span className="image main">
-						<img src={pic08} alt="" />
-					</span>
-					<p>
-						<a href="https://btndsgn.netlify.com" target="_blank">
-							btn.design (2018)
-						</a>
-					</p>
-					<span className="image main">
-						<img src={pic09} alt="" />
-					</span>
-					<p>
-						<a href="https://hypehel.herokuapp.com/" target="_blank">
-							Hypehel (2018)
 						</a>
 					</p>
 					{close}
 				</article>
 
+				{/* ── CONTACT ── */}
 				<article
 					id="contact"
-					className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''
-						}`}
+					className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`}
 					style={{ display: 'none' }}>
 					<h2 className="major">Contact</h2>
 					<h3>
@@ -366,28 +556,21 @@ class Main extends React.Component {
 					<ul className="icons">
 						<li>
 							<a
-								href="https://www.facebook.com/samuli.ristimaki"
-								className="icon fa-facebook">
-								<span className="label">Facebook</span>
-							</a>
-						</li>
-						<li>
-							<a
-								href="https://instagram.com/sampo69  "
-								className="icon fa-instagram">
-								<span className="label">Instagram</span>
-							</a>
-						</li>
-						<li>
-							<a
 								href="https://www.linkedin.com/in/samuli-ristim%C3%A4ki-332a0349"
 								className="icon fa-linkedin">
-								<span className="label">Linkedin</span>
+								<span className="label">LinkedIn</span>
 							</a>
 						</li>
 						<li>
 							<a href="https://github.com/samuliri" className="icon fa-github">
 								<span className="label">GitHub</span>
+							</a>
+						</li>
+						<li>
+							<a
+								href="https://instagram.com/sampo69"
+								className="icon fa-instagram">
+								<span className="label">Instagram</span>
 							</a>
 						</li>
 					</ul>

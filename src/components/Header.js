@@ -9,7 +9,7 @@ const Header = props => (
 		<div className="content">
 			<div className="inner">
 				<h1>Samuli Ristimäki</h1>
-				<p>New media designer, developer and artist</p>
+				<p>Web developer crafting interactive experiences</p>
 			</div>
 		</div>
 		<nav>
@@ -18,27 +18,27 @@ const Header = props => (
 					<a
 						href="#"
 						onClick={() => {
-							props.onOpenArticle('intro');
+							props.onOpenArticle('about');
 						}}>
-						Intro
+						About
 					</a>
 				</li>
 				<li>
 					<a
 						href="#"
 						onClick={() => {
-							props.onOpenArticle('work');
+							props.onOpenArticle('projects');
 						}}>
-						Work
+						Projects
 					</a>
 				</li>
 				<li>
 					<a
 						href="#"
 						onClick={() => {
-							props.onOpenArticle('art');
+							props.onOpenArticle('creative');
 						}}>
-						Art
+						Creative
 					</a>
 				</li>
 				<li>

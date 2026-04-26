@@ -1,7 +1,4 @@
 import React from 'react';
-import { Link } from 'gatsby';
-
-import Layout from '../components/layout';
 
 const SecondPage = () => (
 	<div style={{ width: '100vw', height: '100vh' }}>
